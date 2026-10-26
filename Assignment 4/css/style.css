@@ -1,0 +1,328 @@
+body{
+    background-color: rgb(237, 232, 232);
+}
+/* SECTION 1 */
+.navbar{
+   background-color: transparent;
+}
+.nav-item .nav-link{
+    color:white;
+    font-weight: 600;
+    font-size: 18px;
+    border-bottom:2px solid transparent ;
+    transition: border-bottom 2s;
+    transition: color 1s;
+    padding: 15px;
+    margin-top: 5px;
+  }
+  .nav-item :hover{
+      border-bottom: 2px white solid;
+      color:rgb(192, 171, 140);
+    }
+  .navbar-left{
+      color:white;
+      font-weight: 700;
+      font-size: 30px;
+      padding: 15px;
+      text-decoration: none;
+   }
+  .dropdown-menu a{
+      color:black;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 15px;
+   }
+  header{
+      background-image: url(../images/drew-coffman-1872.jpg);
+      background-size: cover;
+      background-position: center top;
+      width: 100%;
+  }
+  .layer{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .head-content h2{
+      font-weight: 600;
+      font-size: 50px;
+      font-family: "Alegreya", serif; 
+  }
+  .head-content p{
+    font-family: "Alegreya Sans";
+    font-weight: 300;
+    font-size: 20px;
+  }
+  button{
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    color:black;
+  }
+.btn1{
+    background-color: tan;
+    transition: background-color 1s;
+}
+.btn1:hover{
+    background-color: white;
+}
+
+/* SECTION 2 */
+
+.About{
+    background-color: white;
+    margin: auto;
+    width:90%;
+}
+  .about-content h2{
+    font-size: 40px;
+    font-family:  "Alegreya", serif;
+    font-weight: 400;
+    color:#303030;
+} 
+  .about-content p{
+    white-space: pre;
+    font-size: 22px;
+    font-family: "Alegreya Sans" ;
+    font-weight: 300;
+    color:rgb(96, 94, 94);
+    margin-top: 20px;
+}
+.about-personal span{
+    font-size: 19px;
+    font-weight:400;
+    color:#686868;
+    font-family: "Alegreya Sans" ;
+
+}
+.about-personal{
+    margin-left: 30px;
+}
+.About img{
+    width:90%;
+    margin-left: 40px;
+    margin-bottom: 20px;
+
+}
+/* SECTION 3 */
+.Ouroffer{
+    background-color: white;
+    margin: auto;
+    width:80%;
+}
+.offer-content h2{
+    font-size: 55px;
+    font-family:  "Alegreya", serif;
+    font-weight: 400;
+    color:#303030;
+    margin-left: 80px;
+    transition: color 1s;
+ 
+} 
+.offer-content p{
+    white-space: pre;
+    font-size: 18px;
+    font-family: "Alegreya Sans" ;
+    font-weight: 300;
+    color:rgb(96, 94, 94);
+    margin-top: 20px;
+    margin-left:80px ;
+}
+.Ouroffer img{
+    width:90%;
+    margin-right: 150px;
+    margin-bottom: 20px;
+}
+.offer-content h2:hover{
+    color:rgb(212, 190, 158)
+}
+/* SECTION 4 */
+.parent{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.ourblog-header{
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-family: "Alegreya" ;
+    color:#303030;
+}
+.ourblog-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.parent p{
+    font-size: 17px;
+    font-family:"Alegreya", serif ;
+    color:#686868;
+}
+.child{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 30px;
+    width:30%;
+    text-align: center;
+    display: inline-block;
+}
+.scale{
+    overflow: hidden;
+  }
+  .scale img{
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+  }
+  .scale:hover img {
+    transform: scale(1.5);
+}  
+.child img{
+    width:80%;
+}
+.clear-fix{
+    clear: both;
+}
+.child h4{
+    font-size: 22px;
+    font-weight: 400;
+    font-family:"Alegreya" ;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color:#303030
+}
+.child p{
+    font-size: 17px;
+    font-weight: 400;
+    font-family:"Alegreya", serif ;
+    margin-bottom: 30px;
+    font-family: "Alegreya", serif;
+    color: #686868;
+}
+/* SECTION 5 */
+
+.Contact{
+    background-color: white;
+    margin: auto;
+    width:100%;
+}
+.contact-content h2{
+    font-size: 50px;
+    font-family:  "Alegreya";
+    font-weight: 400;
+    color:#303030;
+    margin-left: 100px;
+    transition: color 1s;
+} 
+.contact-content h2:hover{
+    color:rgb(212, 190, 158)
+}
+.contact-content p{
+    white-space: pre;
+    font-size: 17px;
+    font-family: "Alegreya Sans" ;
+    font-weight: 400;
+    color:rgb(96, 94, 94);
+    margin-top: 20px;
+    margin-left:100px ;
+}
+.contact-personal{
+    margin-top: 20px;
+    margin-left:100px ;
+    font-size: 17px;
+    font-family: "Alegreya Sans" ;
+    font-weight: 400;
+    color:#686868;
+}
+.contact-personal li {
+    white-space: pre;
+}
+.contact-item{
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+ .Contact img{
+    width:70%;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    padding-left: 80px;
+}
+
+/* SECTION 6 */
+.Information{
+    background-color: rgba(44, 33, 28, 0.756);
+    margin: auto;
+    width:100%;
+}
+.info-content h4{
+    font-size: 18px;
+    font-family:  "Alegreya";
+    font-weight: 400;
+    color:white;
+    margin-left: 100px;
+    transition: color 1s;
+} 
+.info-content h4:hover{
+    color:rgb(212, 190, 158)
+}
+.info-content pre{
+    font-size: 15px;
+    font-family: "Alegreya" ;
+    font-weight: 400;
+    color:rgb(160, 157, 157);
+    margin-top: 20px;
+    margin-left:100px ;
+}
+.info-content p{
+    white-space: pre;
+    font-size: 15px;
+    font-family: "Alegreya" ;
+    font-weight: 400;
+    color:rgb(160, 157, 157);
+    margin-top: 20px;
+    margin-left:100px ;
+}
+.info-item li ul{
+    white-space: pre;
+    font-size: 15px;
+    font-family: "Alegreya Sans" ;
+    font-weight: 400;
+    color:rgb(160, 157, 157);
+    margin-left:100px ;
+}
+.lists i{
+    font-size: 10px;
+    padding: 10px; 
+    border: 1px solid rgb(169, 169, 169);
+    border-radius: 50%;
+    transition: background-color 1s, border 1s ;
+    cursor: pointer;
+  }
+ 
+
+/* SECTION 7 */
+footer{
+    background-color:rgb(60, 55, 53) ;
+    color:white;
+    width:100%;
+    margin: auto;
+}
+.footer-icon i{
+    font-size: 16px;
+    padding: 10px; 
+    border: 3px solid rgb(84, 72, 73) ;
+    border-radius: 50%;
+    transition: background-color 1s, border 1s ;
+    cursor: pointer;
+  }
+  .footer-icon i:hover{
+    background-color: rgb(131, 116, 118);
+    border:3px solid rgb(205, 225, 248);
+  }
+  .footer-content p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Alegreya Sans" ;
+    color:#686868;
+  }
